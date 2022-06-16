@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  drfauth:
+    image: drfauth
+    build:
+      context: .
+      dockerfile: ./Dockerfile
